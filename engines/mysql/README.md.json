@@ -1,0 +1,21 @@
+{
+  "node": {
+    "id": "engines.mysql",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "engines",
+      "mysql"
+    ]
+  },
+  "links": [
+    {
+      "to": "engines.mysql.mysql-overview",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "engines"
+  }
+}

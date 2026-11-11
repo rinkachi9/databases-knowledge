@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "database-design-and-models.relational.normalization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "database-design-and-models",
+      "relational"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.relational.integrity-constraints",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "e-f-codd-further-normalization-of-the-data-base-re",
+      "type": "website",
+      "title": "E. F. Codd, \"Further Normalization of the Data Base Relational Model\", in Data Base Systems, Prentice-Hall, 1972",
+      "year": 1972,
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "doi-org-william-kent-a-simple-guide-to-five-normal",
+      "type": "paper",
+      "title": "William Kent, \"A Simple Guide to Five Normal Forms in Relational Database Theory\", Communications of the ACM 26(2), 1983",
+      "year": 1983,
+      "url": "https://doi.org/10.1145/358024.358054",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "db-book-com-abraham-silberschatz-henry-f-korth-s-s",
+      "type": "book",
+      "title": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan, Database System Concepts, 7th edition, McGraw-Hill, 2019, chapter 7 \"Relational Database Design\"",
+      "year": 2019,
+      "url": "https://db-book.com/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Functional dependency",
+      "anchor": "#functional-dependencies",
+      "definition": "X determines Y when rows that agree on X always agree on Y."
+    }
+  ],
+  "map": {
+    "group": "relational"
+  }
+}

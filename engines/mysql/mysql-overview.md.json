@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "engines.mysql.mysql-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "engines",
+      "mysql"
+    ],
+    "aliases": [
+      "MariaDB",
+      "InnoDB"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.deadlocks",
+      "rel": "related"
+    },
+    {
+      "to": "query-processing-and-optimization.sql-tuning",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "dev-mysql-com-oracle-mysql-8-4-reference-manual",
+      "type": "documentation",
+      "title": "Oracle, \"MySQL 8.4 Reference Manual\"",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dev-mysql-com-oracle-the-innodb-storage-engine-mys",
+      "type": "documentation",
+      "title": "Oracle, \"The InnoDB Storage Engine\", MySQL 8.4 Reference Manual, chapter 17",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/innodb-storage-engine.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mariadb-org-mariadb-foundation-mariadb-server",
+      "type": "website",
+      "title": "MariaDB Foundation, \"MariaDB Server\"",
+      "url": "https://mariadb.org/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "docs-percona-com-percona-pt-query-digest-percona-t",
+      "type": "documentation",
+      "title": "Percona, \"pt-query-digest\", Percona Toolkit documentation",
+      "url": "https://docs.percona.com/percona-toolkit/pt-query-digest.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "mysql"
+  }
+}

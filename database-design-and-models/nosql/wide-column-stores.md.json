@@ -1,0 +1,70 @@
+{
+  "node": {
+    "id": "database-design-and-models.nosql.wide-column-stores",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "database-design-and-models",
+      "nosql"
+    ],
+    "aliases": [
+      "column-family store",
+      "wide column database"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.nosql.key-value-stores",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.cassandra.cassandra-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "research-google-fay-chang-et-al-bigtable-a-distrib",
+      "type": "paper",
+      "title": "Fay Chang et al., \"Bigtable: A Distributed Storage System for Structured Data\", OSDI 2006",
+      "year": 2006,
+      "url": "https://research.google/pubs/bigtable-a-distributed-storage-system-for-structured-data/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "cassandra-apache-org-apache-software-foundation-da",
+      "type": "documentation",
+      "title": "Apache Software Foundation, \"Data modeling\", Apache Cassandra documentation",
+      "url": "https://cassandra.apache.org/doc/latest/cassandra/developing/data-modeling/index.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "hbase-apache-org-apache-software-foundation-apache",
+      "type": "website",
+      "title": "Apache Software Foundation, \"Apache HBase Reference Guide\"",
+      "url": "https://hbase.apache.org/book.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "doi-org-patrick-o-neil-et-al-the-log-structured-me",
+      "type": "paper",
+      "title": "Patrick O'Neil et al., \"The Log-Structured Merge-Tree (LSM-Tree)\", Acta Informatica 33, 1996",
+      "year": 1996,
+      "url": "https://doi.org/10.1007/s002360050048",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "nosql"
+  }
+}

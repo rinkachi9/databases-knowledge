@@ -1,0 +1,125 @@
+{
+  "node": {
+    "id": "foundations.sql-vs-nosql",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "foundations"
+    ],
+    "aliases": [
+      "relational versus non-relational",
+      "SQL or NoSQL"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.key-value-stores",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.document-stores",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.wide-column-stores",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.graph-databases",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.triggers",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.stored-procedures",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.relational.normalization",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.relational.denormalization",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.sql-language-overview",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "related"
+    },
+    {
+      "to": "case-studies.figma-database-scaling",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sitepoint-com-craig-buckler-sql-vs-nosql-the-diffe",
+      "type": "website",
+      "title": "Craig Buckler, \"SQL vs NoSQL: The Differences\", SitePoint (2020 update)",
+      "year": 2020,
+      "url": "https://www.sitepoint.com/sql-vs-nosql-differences/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-r",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: RDBMS and NoSQL\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#sql-or-nosql",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dataintensive-net-martin-kleppmann-designing-data",
+      "type": "book",
+      "title": "Martin Kleppmann, Designing Data-Intensive Applications, chapter 2 \"Data Models and Query Languages\", O'Reilly, 2017",
+      "year": 2017,
+      "url": "https://dataintensive.net/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mongodb-com-mongodb-transactions-mongodb-manual",
+      "type": "documentation",
+      "title": "MongoDB, \"Transactions\", MongoDB Manual",
+      "url": "https://www.mongodb.com/docs/manual/core/transactions/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"JSON Types\", PostgreSQL 17 documentation",
+      "url": "https://www.postgresql.org/docs/17/datatype-json.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

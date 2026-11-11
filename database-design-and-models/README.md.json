@@ -1,0 +1,23 @@
+{
+  "node": {
+    "id": "database-design-and-models",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "database-design-and-models"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "database-design-and-models"
+  }
+}

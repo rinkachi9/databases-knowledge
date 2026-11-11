@@ -1,0 +1,21 @@
+{
+  "node": {
+    "id": "engines.elasticsearch",
+    "kind": "index",
+    "status": "draft",
+    "order": 8,
+    "tags": [
+      "engines",
+      "elasticsearch"
+    ]
+  },
+  "links": [
+    {
+      "to": "engines.elasticsearch.elasticsearch-overview",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "engines"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "node": {
+    "id": "database-design-and-models.nosql.nosql-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 1,
+    "tags": [
+      "database-design-and-models",
+      "nosql"
+    ],
+    "aliases": [
+      "NoSQL",
+      "BASE"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.sql-vs-nosql",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.physical-and-virtual-nodes",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.consistent-hashing",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.wide-column-stores",
+      "rel": "related"
+    },
+    {
+      "to": "foundations.choosing-a-database",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "horicky-blogspot-com-ricky-ho-nosql-patterns-pragm",
+      "type": "website",
+      "title": "Ricky Ho, \"NOSQL Patterns\", Pragmatic Programming Techniques (blog), 2009",
+      "year": 2009,
+      "url": "https://horicky.blogspot.com/2009/11/nosql-patterns.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-n",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: NoSQL\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#nosql",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "doi-org-seth-gilbert-nancy-lynch-brewer-s-conjectu",
+      "type": "paper",
+      "title": "Seth Gilbert, Nancy Lynch, \"Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services\", ACM SIGACT News 33(2), 2002",
+      "year": 2002,
+      "url": "https://doi.org/10.1145/564585.564601",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "doi-org-daniel-abadi-consistency-tradeoffs-in-mode",
+      "type": "paper",
+      "title": "Daniel Abadi, \"Consistency Tradeoffs in Modern Distributed Database System Design\", IEEE Computer 45(2), 2012",
+      "year": 2012,
+      "url": "https://doi.org/10.1109/MC.2012.33",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "allthingsdistributed-com-giuseppe-decandia-et-al-d",
+      "type": "paper",
+      "title": "Giuseppe DeCandia et al., \"Dynamo: Amazon's Highly Available Key-value Store\", SOSP 2007",
+      "year": 2007,
+      "url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "BASE",
+      "anchor": "#base",
+      "definition": "Basically available, soft state and eventually consistent: the properties many NoSQL stores choose instead of ACID."
+    }
+  ],
+  "map": {
+    "group": "nosql"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "node": {
+    "id": "query-languages.sql",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "query-languages",
+      "sql"
+    ]
+  },
+  "links": [
+    {
+      "to": "query-languages.sql.sql-language-overview",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.sql-joins",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.stored-procedures",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.triggers",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "query-languages"
+  }
+}

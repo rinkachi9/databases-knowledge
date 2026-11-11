@@ -1,0 +1,19 @@
+{
+  "node": {
+    "id": "query-processing-and-optimization",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "query-processing-and-optimization"
+    ]
+  },
+  "links": [
+    {
+      "to": "query-processing-and-optimization.sql-tuning",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "query-processing-and-optimization"
+  }
+}

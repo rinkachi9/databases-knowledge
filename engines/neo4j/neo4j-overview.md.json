@@ -1,0 +1,49 @@
+{
+  "node": {
+    "id": "engines.neo4j.neo4j-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "engines",
+      "neo4j"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.graph-databases",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "neo4j-com-neo4j-neo4j-documentation-and-cypher-man",
+      "type": "documentation",
+      "title": "Neo4j, \"Neo4j documentation\" and \"Cypher Manual\"",
+      "url": "https://neo4j.com/docs/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "neo4j-com-ian-robinson-jim-webber-emil-eifrem-grap",
+      "type": "book",
+      "title": "Ian Robinson, Jim Webber, Emil Eifrem, Graph Databases, 2nd edition, O'Reilly, 2015",
+      "year": 2015,
+      "url": "https://neo4j.com/graph-databases-book/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "neo4j-com-neo4j-licensing",
+      "type": "website",
+      "title": "Neo4j, \"Licensing\"",
+      "url": "https://neo4j.com/licensing/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "neo4j"
+  }
+}

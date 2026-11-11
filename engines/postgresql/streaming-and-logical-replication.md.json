@@ -1,0 +1,57 @@
+{
+  "node": {
+    "id": "engines.postgresql.streaming-and-logical-replication",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 2,
+    "tags": [
+      "engines",
+      "postgresql"
+    ]
+  },
+  "links": [
+    {
+      "to": "distributed-databases.replication",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.replication-modes",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.postgresql.postgresql-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Logical Replication\", PostgreSQL 17 documentation, chapter 29",
+      "url": "https://www.postgresql.org/docs/17/logical-replication.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group-x",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Log-Shipping Standby Servers\", PostgreSQL 17 documentation, section 26.2",
+      "url": "https://www.postgresql.org/docs/17/warm-standby.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "figma-com-tim-liang-the-growing-pains-of-database",
+      "type": "website",
+      "title": "Tim Liang, \"The growing pains of database architecture\", Figma blog, 2023",
+      "year": 2023,
+      "url": "https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "postgresql"
+  }
+}

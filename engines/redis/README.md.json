@@ -1,0 +1,21 @@
+{
+  "node": {
+    "id": "engines.redis",
+    "kind": "index",
+    "status": "draft",
+    "order": 5,
+    "tags": [
+      "engines",
+      "redis"
+    ]
+  },
+  "links": [
+    {
+      "to": "engines.redis.redis-overview",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "engines"
+  }
+}

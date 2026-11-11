@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "query-languages.sql.sql-joins",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "query-languages",
+      "sql"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "query-languages.sql.sql-language-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "query-processing-and-optimization.sql-tuning",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.relational.denormalization",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Joined Tables\", PostgreSQL 17 documentation, section 7.2.1.1",
+      "url": "https://www.postgresql.org/docs/17/queries-table-expressions.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "use-the-index-luke-com-markus-winand-use-the-index",
+      "type": "website",
+      "title": "Markus Winand, \"Use The Index, Luke: The Join Operation\"",
+      "url": "https://use-the-index-luke.com/sql/join",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "bytebytego-com-bytebytego-a-crash-course-on-relati",
+      "type": "website",
+      "title": "ByteByteGo, \"A Crash Course on Relational Database Design\" (infographic)",
+      "url": "https://bytebytego.com/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "sql"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "storage-and-indexing",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "storage-and-indexing"
+    ]
+  },
+  "map": {
+    "group": "storage-and-indexing"
+  }
+}

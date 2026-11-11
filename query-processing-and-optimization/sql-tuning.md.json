@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "query-processing-and-optimization.sql-tuning",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "query-processing-and-optimization"
+    ],
+    "aliases": [
+      "SQL optimization",
+      "query tuning",
+      "EXPLAIN ANALYZE"
+    ]
+  },
+  "links": [
+    {
+      "to": "query-languages.sql.sql-language-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "query-languages.sql.sql-joins",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.deadlocks",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Using EXPLAIN\" and \"Performance Tips\", PostgreSQL 17 documentation, chapter 14",
+      "url": "https://www.postgresql.org/docs/17/using-explain.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "use-the-index-luke-com-markus-winand-sql-performan",
+      "type": "website",
+      "title": "Markus Winand, SQL Performance Explained, 2012, and \"Use The Index, Luke\"",
+      "year": 2012,
+      "url": "https://use-the-index-luke.com/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dev-mysql-com-oracle-optimizing-sql-statements-mys",
+      "type": "documentation",
+      "title": "Oracle, \"Optimizing SQL Statements\", MySQL 8.4 Reference Manual, chapter 10",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/optimization.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "learn-microsoft-com-microsoft-monitor-performance",
+      "type": "documentation",
+      "title": "Microsoft, \"Monitor performance by using the Query Store\", SQL Server documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/performance/monitoring-performance-by-using-the-query-store",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "query-processing-and-optimization"
+  }
+}

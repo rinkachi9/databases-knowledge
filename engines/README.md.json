@@ -1,0 +1,47 @@
+{
+  "node": {
+    "id": "engines",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "engines"
+    ]
+  },
+  "links": [
+    {
+      "to": "engines.postgresql",
+      "rel": "related"
+    },
+    {
+      "to": "engines.mysql",
+      "rel": "related"
+    },
+    {
+      "to": "engines.sqlite",
+      "rel": "related"
+    },
+    {
+      "to": "engines.mongodb",
+      "rel": "related"
+    },
+    {
+      "to": "engines.redis",
+      "rel": "related"
+    },
+    {
+      "to": "engines.cassandra",
+      "rel": "related"
+    },
+    {
+      "to": "engines.neo4j",
+      "rel": "related"
+    },
+    {
+      "to": "engines.elasticsearch",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "engines"
+  }
+}

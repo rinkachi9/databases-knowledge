@@ -1,0 +1,29 @@
+{
+  "node": {
+    "id": "engines.postgresql",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "engines",
+      "postgresql"
+    ]
+  },
+  "links": [
+    {
+      "to": "engines.postgresql.postgresql-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.postgresql.streaming-and-logical-replication",
+      "rel": "related"
+    },
+    {
+      "to": "engines.postgresql.vacuum",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "engines"
+  }
+}

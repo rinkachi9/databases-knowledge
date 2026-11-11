@@ -1,0 +1,53 @@
+{
+  "node": {
+    "id": "distributed-databases.physical-and-virtual-nodes",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "distributed-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "horicky-blogspot-com-ricky-ho-nosql-patterns-2009",
+      "type": "website",
+      "title": "Ricky Ho, \"NOSQL Patterns\", 2009",
+      "year": 2009,
+      "url": "https://horicky.blogspot.com/2009/11/nosql-patterns.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "allthingsdistributed-com-giuseppe-decandia-et-al-d",
+      "type": "paper",
+      "title": "Giuseppe DeCandia et al., \"Dynamo: Amazon's Highly Available Key-value Store\", SOSP 2007, section 4.2",
+      "year": 2007,
+      "url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "cassandra-apache-org-apache-software-foundation-dy",
+      "type": "documentation",
+      "title": "Apache Software Foundation, \"Dynamo\", Apache Cassandra documentation (architecture)",
+      "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "distributed-databases"
+  }
+}

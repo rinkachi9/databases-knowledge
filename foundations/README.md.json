@@ -1,0 +1,28 @@
+{
+  "node": {
+    "id": "foundations",
+    "kind": "index",
+    "status": "draft",
+    "level": "intro",
+    "tags": [
+      "foundations"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.sql-vs-nosql",
+      "rel": "related"
+    },
+    {
+      "to": "foundations.choosing-a-database",
+      "rel": "related"
+    },
+    {
+      "to": "foundations.popular-open-source-databases",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

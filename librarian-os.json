@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "project": {
+    "name": "Databases Knowledge",
+    "description": "A personal, expert level knowledge base about databases: technology agnostic concepts organized by the Data management systems branch of the ACM Computing Classification System, a dedicated area for concrete engines such as PostgreSQL, MongoDB and Redis, and case studies.",
+    "language": "en"
+  },
+  "entryPoints": [
+    {
+      "path": "foundations"
+    },
+    {
+      "path": "database-design-and-models"
+    },
+    {
+      "path": "storage-and-indexing"
+    },
+    {
+      "path": "query-languages"
+    },
+    {
+      "path": "query-processing-and-optimization"
+    },
+    {
+      "path": "transactions-and-concurrency"
+    },
+    {
+      "path": "distributed-databases"
+    },
+    {
+      "path": "information-integration"
+    },
+    {
+      "path": "database-administration"
+    },
+    {
+      "path": "database-middleware"
+    },
+    {
+      "path": "database-security"
+    },
+    {
+      "path": "engines"
+    },
+    {
+      "path": "case-studies"
+    }
+  ],
+  "ignore": [
+    "_assets"
+  ],
+  "toc": {
+    "file": "ToC.md",
+    "check": true,
+    "descriptions": {
+      ".gitignore": "Files excluded from version control.",
+      "librarian-os.json": "Configuration for Librarian OS: project name, entry points and rules.",
+      "INSTRUCTIONS.md": "Preparing a repository for Librarian OS - the configuration and sidecar standard of the reader.",
+      "_assets/case-studies/figma-database-scaling-colos.png": "Figure of colocated table groups (colos) in the note \"Figma database scaling\" (credit: ByteByteGo).",
+      "_assets/case-studies/figma-database-scaling-dbproxy.png": "Figure of DBProxy between the application and PgBouncer in the note \"Figma database scaling\" (credit: ByteByteGo).",
+      "_assets/case-studies/figma-database-scaling-pgbouncer.png": "Figure of PgBouncer connection pooling in the note \"Figma database scaling\" (credit: ByteByteGo).",
+      "_assets/case-studies/figma-database-scaling-query-processing.png": "Figure of the DBProxy query parser and planners in the note \"Figma database scaling\" (credit: ByteByteGo).",
+      "_assets/case-studies/figma-database-scaling-single-shard-vs-scatter-gather.png": "Figure of single shard and scatter-gather queries in the note \"Figma database scaling\" (credit: ByteByteGo).",
+      "_assets/case-studies/figma-database-scaling-vertical-partitioning-migration.png": "Figure of the three-step PgBouncer and data partitioning migration in the note \"Figma database scaling\" (credit: ByteByteGo).",
+      "_assets/case-studies/figma-database-scaling-vertical-partitioning-vs-horizontal-sharding.png": "Figure comparing vertical partitioning and horizontal sharding in the note \"Figma database scaling\" (credit: ByteByteGo).",
+      "_assets/database-design-and-models/denormalization-horizontal-table-splitting.png": "Figure of horizontal table splitting in the note \"Denormalization\".",
+      "_assets/database-design-and-models/denormalization-redundant-column.png": "Figure of a redundant column added to an order table in the note \"Denormalization\".",
+      "_assets/database-design-and-models/denormalization-vertical-table-splitting.png": "Figure of vertical table splitting in the note \"Denormalization\".",
+      "_assets/database-design-and-models/relational-model-crash-course.png": "Infographic on relational database design in the note \"Relational model\" (credit: ByteByteGo).",
+      "_assets/database-design-and-models/wide-column-stores-rows-and-columns.png": "Figure of rows with their own columns in the note \"Wide-column stores\".",
+      "_assets/distributed-databases/consistent-hashing-replicas-on-ring.png": "Figure of replicas placed on a hash ring in the note \"Replication\" (credit: Ricky Ho).",
+      "_assets/distributed-databases/consistent-hashing-ring-ownership.png": "Figure of key range ownership on a hash ring in the note \"Consistent hashing\" (credit: Ricky Ho).",
+      "_assets/distributed-databases/database-scaling-strategies-cheatsheet.png": "Infographic of seven database scaling strategies in the note \"Database scaling strategies\" (credit: ByteByteGo).",
+      "_assets/distributed-databases/physical-and-virtual-nodes-layout.png": "Figure of physical nodes hosting virtual nodes in the note \"Physical and virtual nodes\" (credit: Ricky Ho).",
+      "_assets/foundations/popular-open-source-databases-overview.png": "Infographic of ten popular open source databases in the note \"Popular open-source databases\" (credit: ByteByteGo).",
+      "_assets/query-languages/sql-language-overview-learning-map.png": "Mind map of SQL statement classes in the note \"SQL language overview\" (credit: ByteByteGo).",
+      "_assets/transactions-and-concurrency/deadlocks-overview.png": "Infographic on deadlocks in the note \"Deadlocks\" (credit: ByteByteGo)."
+    }
+  },
+  "rules": {
+    "requireSidecars": true,
+    "noLongDashes": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "node": {
+    "id": "database-administration",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "database-administration"
+    ]
+  },
+  "map": {
+    "group": "database-administration"
+  }
+}

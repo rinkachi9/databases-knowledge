@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "database-design-and-models.nosql.key-value-stores",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "database-design-and-models",
+      "nosql"
+    ],
+    "aliases": [
+      "key-value database",
+      "KV store"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.consistent-hashing",
+      "rel": "related"
+    },
+    {
+      "to": "engines.redis.redis-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-k",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: Key-value store\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#key-value-store",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "horicky-blogspot-com-ricky-ho-nosql-patterns-2009",
+      "type": "website",
+      "title": "Ricky Ho, \"NOSQL Patterns\", 2009",
+      "year": 2009,
+      "url": "https://horicky.blogspot.com/2009/11/nosql-patterns.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "redis-io-redis-ltd-redis-data-types-redis-document",
+      "type": "documentation",
+      "title": "Redis Ltd., \"Redis data types\", Redis documentation",
+      "url": "https://redis.io/docs/latest/develop/data-types/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "docs-aws-amazon-com-amazon-web-services-what-is-am",
+      "type": "documentation",
+      "title": "Amazon Web Services, \"What is Amazon DynamoDB?\", DynamoDB Developer Guide",
+      "url": "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "nosql"
+  }
+}

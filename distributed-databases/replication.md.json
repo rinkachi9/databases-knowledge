@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "distributed-databases.replication",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "distributed-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.consistent-hashing",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.postgresql.streaming-and-logical-replication",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-r",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: Replication\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#replication",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dataintensive-net-martin-kleppmann-designing-data",
+      "type": "book",
+      "title": "Martin Kleppmann, Designing Data-Intensive Applications, chapter 5 \"Replication\", O'Reilly, 2017",
+      "year": 2017,
+      "url": "https://dataintensive.net/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"High Availability, Load Balancing, and Replication\", PostgreSQL 17 documentation, chapter 26",
+      "url": "https://www.postgresql.org/docs/17/high-availability.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "horicky-blogspot-com-ricky-ho-nosql-patterns-2009",
+      "type": "website",
+      "title": "Ricky Ho, \"NOSQL Patterns\", 2009",
+      "year": 2009,
+      "url": "https://horicky.blogspot.com/2009/11/nosql-patterns.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "distributed-databases"
+  }
+}

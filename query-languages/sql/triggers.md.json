@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "query-languages.sql.triggers",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "query-languages",
+      "sql"
+    ]
+  },
+  "links": [
+    {
+      "to": "query-languages.sql.stored-procedures",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.relational.integrity-constraints",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.relational.denormalization",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Triggers\" and \"Event Triggers\", PostgreSQL 17 documentation",
+      "url": "https://www.postgresql.org/docs/17/triggers.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "learn-microsoft-com-microsoft-ddl-triggers-and-log",
+      "type": "documentation",
+      "title": "Microsoft, \"DDL triggers\" and \"Logon triggers\", SQL Server documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/triggers/ddl-triggers",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "docs-oracle-com-oracle-using-triggers-oracle-datab",
+      "type": "documentation",
+      "title": "Oracle, \"Using Triggers\", Oracle Database PL/SQL Language Reference",
+      "url": "https://docs.oracle.com/en/database/oracle/oracle-database/23/lnpls/plsql-triggers.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "sql"
+  }
+}

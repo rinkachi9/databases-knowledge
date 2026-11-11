@@ -1,0 +1,78 @@
+{
+  "node": {
+    "id": "database-design-and-models.relational.relational-model",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "database-design-and-models",
+      "relational"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.sql-vs-nosql",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "query-languages.sql.sql-joins",
+      "rel": "related"
+    },
+    {
+      "to": "query-processing-and-optimization.sql-tuning",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.sql-language-overview",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "doi-org-e-f-codd-a-relational-model-of-data-for-la",
+      "type": "paper",
+      "title": "E. F. Codd, \"A Relational Model of Data for Large Shared Data Banks\", Communications of the ACM 13(6), 1970",
+      "year": 1970,
+      "url": "https://doi.org/10.1145/362384.362685",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "db-book-com-abraham-silberschatz-henry-f-korth-s-s",
+      "type": "book",
+      "title": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan, Database System Concepts, 7th edition, McGraw-Hill, 2019, chapter 2 \"Introduction to the Relational Model\"",
+      "year": 2019,
+      "url": "https://db-book.com/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "bytebytego-com-bytebytego-a-crash-course-on-relati",
+      "type": "website",
+      "title": "ByteByteGo, \"A Crash Course on Relational Database Design\" (infographic)",
+      "url": "https://bytebytego.com/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Constraints\", PostgreSQL 17 documentation",
+      "url": "https://www.postgresql.org/docs/17/ddl-constraints.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "relational"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "foundations.popular-open-source-databases",
+    "kind": "note",
+    "status": "draft",
+    "level": "intro",
+    "order": 3,
+    "tags": [
+      "foundations"
+    ]
+  },
+  "links": [
+    {
+      "to": "engines",
+      "rel": "related"
+    },
+    {
+      "to": "foundations.sql-vs-nosql",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.mysql.mysql-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.postgresql.postgresql-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.cassandra.cassandra-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.neo4j.neo4j-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.sqlite.sqlite-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.redis.redis-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.mongodb.mongodb-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bytebytego-com-bytebytego-most-popular-open-source",
+      "type": "website",
+      "title": "ByteByteGo, \"Most Popular Open Source Databases\" (infographic)",
+      "url": "https://bytebytego.com/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "db-engines-com-db-engines-db-engines-ranking",
+      "type": "website",
+      "title": "DB-Engines, \"DB-Engines Ranking\"",
+      "url": "https://db-engines.com/en/ranking",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "redis-io-redis-ltd-redis-is-now-available-under-th",
+      "type": "website",
+      "title": "Redis Ltd., \"Redis is now available under the AGPLv3 open source license\" (blog, 2025)",
+      "year": 2025,
+      "url": "https://redis.io/blog/agplv3/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mongodb-com-mongodb-inc-server-side-public-license",
+      "type": "website",
+      "title": "MongoDB Inc., \"Server Side Public License FAQ\"",
+      "url": "https://www.mongodb.com/legal/licensing/server-side-public-license/faq",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "valkey-io-valkey-project",
+      "type": "website",
+      "title": "Valkey project",
+      "url": "https://valkey.io/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "foundations"
+  }
+}

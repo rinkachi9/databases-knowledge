@@ -1,0 +1,64 @@
+{
+  "node": {
+    "id": "engines.mongodb.mongodb-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "engines",
+      "mongodb"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.document-stores",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "mongodb-com-mongodb-mongodb-manual",
+      "type": "documentation",
+      "title": "MongoDB, \"MongoDB Manual\"",
+      "url": "https://www.mongodb.com/docs/manual/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mongodb-com-mongodb-sharding",
+      "type": "documentation",
+      "title": "MongoDB, \"Sharding\"",
+      "url": "https://www.mongodb.com/docs/manual/sharding/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mongodb-com-mongodb-replication",
+      "type": "documentation",
+      "title": "MongoDB, \"Replication\"",
+      "url": "https://www.mongodb.com/docs/manual/replication/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mongodb-com-mongodb-server-side-public-license-faq",
+      "type": "website",
+      "title": "MongoDB, \"Server Side Public License FAQ\"",
+      "url": "https://www.mongodb.com/legal/licensing/server-side-public-license/faq",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "mongodb"
+  }
+}

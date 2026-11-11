@@ -1,0 +1,70 @@
+{
+  "node": {
+    "id": "distributed-databases.replication-modes",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 6,
+    "tags": [
+      "distributed-databases"
+    ],
+    "aliases": [
+      "synchronous replication",
+      "asynchronous replication",
+      "semi-synchronous replication"
+    ]
+  },
+  "links": [
+    {
+      "to": "distributed-databases.replication",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.replication-topologies",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Synchronous Replication\", PostgreSQL 17 documentation, section 26.2.8",
+      "url": "https://www.postgresql.org/docs/17/warm-standby.html#SYNCHRONOUS-REPLICATION",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dev-mysql-com-oracle-semisynchronous-replication-m",
+      "type": "documentation",
+      "title": "Oracle, \"Semisynchronous Replication\", MySQL 8.4 Reference Manual",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/replication-semisync.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "raft-github-io-diego-ongaro-john-ousterhout-in-sea",
+      "type": "paper",
+      "title": "Diego Ongaro, John Ousterhout, \"In Search of an Understandable Consensus Algorithm (Raft)\", USENIX ATC 2014",
+      "year": 2014,
+      "url": "https://raft.github.io/raft.pdf",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dataintensive-net-martin-kleppmann-designing-data",
+      "type": "book",
+      "title": "Martin Kleppmann, Designing Data-Intensive Applications, chapter 5 \"Synchronous Versus Asynchronous Replication\", O'Reilly, 2017",
+      "year": 2017,
+      "url": "https://dataintensive.net/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "distributed-databases"
+  }
+}

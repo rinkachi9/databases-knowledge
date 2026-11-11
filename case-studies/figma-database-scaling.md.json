@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "case-studies.figma-database-scaling",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 1,
+    "tags": [
+      "case-studies"
+    ],
+    "aliases": [
+      "Figma sharding",
+      "DBProxy"
+    ]
+  },
+  "links": [
+    {
+      "to": "distributed-databases.database-scaling-strategies",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.postgresql.streaming-and-logical-replication",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.postgresql.vacuum",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "figma-com-sammy-steele-how-figma-s-databases-team",
+      "type": "website",
+      "title": "Sammy Steele, \"How Figma's databases team lived to tell the scale\", Figma blog, March 2024",
+      "year": 2024,
+      "url": "https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "figma-com-tim-liang-the-growing-pains-of-database",
+      "type": "website",
+      "title": "Tim Liang, \"The growing pains of database architecture\", Figma blog, May 2023",
+      "year": 2023,
+      "url": "https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "blog-bytebytego-com-bytebytego-how-figma-scaled-it",
+      "type": "website",
+      "title": "ByteByteGo, \"How Figma scaled its databases\" (newsletter)",
+      "url": "https://blog.bytebytego.com/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "figma-user-statistics-as-cited-by-the-bytebytego-n",
+      "type": "website",
+      "title": "Figma user statistics, as cited by the ByteByteGo newsletter for the 3 million monthly users figure. TODO: find and verify the original statistics source",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "pgbouncer-org-pgbouncer-features",
+      "type": "website",
+      "title": "PgBouncer, \"Features\"",
+      "url": "https://www.pgbouncer.org/features.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "case-studies"
+  }
+}

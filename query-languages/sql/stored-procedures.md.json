@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "query-languages.sql.stored-procedures",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "query-languages",
+      "sql"
+    ]
+  },
+  "links": [
+    {
+      "to": "query-languages.sql.sql-language-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.deadlocks",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"CREATE PROCEDURE\" and \"PL/pgSQL\", PostgreSQL 17 documentation",
+      "url": "https://www.postgresql.org/docs/17/sql-createprocedure.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group-x",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Writing SECURITY DEFINER Functions Safely\"",
+      "url": "https://www.postgresql.org/docs/17/sql-createfunction.html#SQL-CREATEFUNCTION-SECURITY",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "learn-microsoft-com-microsoft-stored-procedures-da",
+      "type": "documentation",
+      "title": "Microsoft, \"Stored procedures (Database Engine)\", SQL Server documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/stored-procedures/stored-procedures-database-engine",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "sql"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "node": {
+    "id": "engines.postgresql.postgresql-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "engines",
+      "postgresql"
+    ],
+    "aliases": [
+      "Postgres"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.postgresql.vacuum",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.stored-procedures",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.triggers",
+      "rel": "related"
+    },
+    {
+      "to": "engines.postgresql.streaming-and-logical-replication",
+      "rel": "related"
+    },
+    {
+      "to": "information-integration.database-federation",
+      "rel": "related"
+    },
+    {
+      "to": "query-processing-and-optimization.sql-tuning",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.database-scaling-strategies",
+      "rel": "related"
+    },
+    {
+      "to": "case-studies.figma-database-scaling",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"PostgreSQL 17 Documentation\"",
+      "url": "https://www.postgresql.org/docs/17/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group-x",
+      "type": "website",
+      "title": "PostgreSQL Global Development Group, \"Versioning Policy\"",
+      "url": "https://www.postgresql.org/support/versioning/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dl-acm-org-michael-stonebraker-lawrence-a-rowe-the",
+      "type": "website",
+      "title": "Michael Stonebraker, Lawrence A. Rowe, \"The Design of POSTGRES\", SIGMOD 1986",
+      "year": 1986,
+      "url": "https://dl.acm.org/doi/10.1145/16894.16888",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "pgbouncer-org-pgbouncer-documentation",
+      "type": "website",
+      "title": "PgBouncer documentation",
+      "url": "https://www.pgbouncer.org/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "interdb-jp-hironobu-suzuki-the-internals-of-postgr",
+      "type": "website",
+      "title": "Hironobu Suzuki, The Internals of PostgreSQL",
+      "url": "https://www.interdb.jp/pg/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "postgresql"
+  }
+}

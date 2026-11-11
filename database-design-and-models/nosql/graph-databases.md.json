@@ -1,0 +1,79 @@
+{
+  "node": {
+    "id": "database-design-and-models.nosql.graph-databases",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "database-design-and-models",
+      "nosql"
+    ],
+    "aliases": [
+      "graph database",
+      "property graph"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.neo4j.neo4j-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "neo4j-com-ian-robinson-jim-webber-emil-eifrem-grap",
+      "type": "book",
+      "title": "Ian Robinson, Jim Webber, Emil Eifrem, Graph Databases, 2nd edition, O'Reilly, 2015",
+      "year": 2015,
+      "url": "https://neo4j.com/graph-databases-book/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "neo4j-com-neo4j-cypher-manual",
+      "type": "documentation",
+      "title": "Neo4j, \"Cypher Manual\"",
+      "url": "https://neo4j.com/docs/cypher-manual/current/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "iso-org-iso-iec-39075-2024-information-technology",
+      "type": "standard",
+      "title": "ISO/IEC 39075:2024, \"Information technology - Database languages - GQL\"",
+      "year": 2024,
+      "url": "https://www.iso.org/standard/76120.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "w3-org-w3c-rdf-1-1-concepts-and-abstract-syntax-20",
+      "type": "standard",
+      "title": "W3C, \"RDF 1.1 Concepts and Abstract Syntax\", 2014",
+      "year": 2014,
+      "url": "https://www.w3.org/TR/rdf11-concepts/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "tinkerpop-apache-org-apache-tinkerpop-documentatio",
+      "type": "documentation",
+      "title": "Apache TinkerPop documentation",
+      "url": "https://tinkerpop.apache.org/docs/current/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "nosql"
+  }
+}

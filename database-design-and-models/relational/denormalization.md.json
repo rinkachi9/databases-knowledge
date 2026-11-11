@@ -1,0 +1,81 @@
+{
+  "node": {
+    "id": "database-design-and-models.relational.denormalization",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 4,
+    "tags": [
+      "database-design-and-models",
+      "relational"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.normalization",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "information-integration.database-federation",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "related"
+    },
+    {
+      "to": "query-processing-and-optimization.sql-tuning",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-d",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: Denormalization\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#denormalization",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Materialized Views\", PostgreSQL 17 documentation",
+      "url": "https://www.postgresql.org/docs/17/rules-materializedviews.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group-x",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Table Partitioning\", PostgreSQL 17 documentation",
+      "url": "https://www.postgresql.org/docs/17/ddl-partitioning.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dataintensive-net-martin-kleppmann-designing-data",
+      "type": "book",
+      "title": "Martin Kleppmann, Designing Data-Intensive Applications, O'Reilly, 2017, chapter 3 and chapter 11 (derived data)",
+      "year": 2017,
+      "url": "https://dataintensive.net/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "relational"
+  }
+}

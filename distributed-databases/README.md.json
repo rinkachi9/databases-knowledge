@@ -1,0 +1,43 @@
+{
+  "node": {
+    "id": "distributed-databases",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "distributed-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "distributed-databases.database-scaling-strategies",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.physical-and-virtual-nodes",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.consistent-hashing",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.replication-topologies",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.replication-modes",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "distributed-databases"
+  }
+}

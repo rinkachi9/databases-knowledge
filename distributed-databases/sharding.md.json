@@ -1,0 +1,83 @@
+{
+  "node": {
+    "id": "distributed-databases.sharding",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 7,
+    "tags": [
+      "distributed-databases"
+    ],
+    "aliases": [
+      "horizontal partitioning",
+      "partitioning"
+    ]
+  },
+  "links": [
+    {
+      "to": "distributed-databases.replication",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.consistent-hashing",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "information-integration.database-federation",
+      "rel": "related"
+    },
+    {
+      "to": "engines.mongodb.mongodb-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.cassandra.cassandra-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-s",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: Sharding\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#sharding",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dataintensive-net-martin-kleppmann-designing-data",
+      "type": "book",
+      "title": "Martin Kleppmann, Designing Data-Intensive Applications, chapter 6 \"Partitioning\", O'Reilly, 2017",
+      "year": 2017,
+      "url": "https://dataintensive.net/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mongodb-com-mongodb-sharding-mongodb-manual",
+      "type": "documentation",
+      "title": "MongoDB, \"Sharding\", MongoDB Manual",
+      "url": "https://www.mongodb.com/docs/manual/sharding/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "vitess-io-vitess-sharding-documentation",
+      "type": "documentation",
+      "title": "Vitess, \"Sharding\" (documentation)",
+      "url": "https://vitess.io/docs/reference/features/sharding/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Shard key",
+      "anchor": "#shard-key",
+      "definition": "The attribute whose value decides which shard stores a row or document."
+    }
+  ],
+  "map": {
+    "group": "distributed-databases"
+  }
+}

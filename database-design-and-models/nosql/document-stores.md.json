@@ -1,0 +1,76 @@
+{
+  "node": {
+    "id": "database-design-and-models.nosql.document-stores",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 3,
+    "tags": [
+      "database-design-and-models",
+      "nosql"
+    ],
+    "aliases": [
+      "document database",
+      "document-oriented database"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.nosql.key-value-stores",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-security",
+      "rel": "related"
+    },
+    {
+      "to": "engines.mongodb.mongodb-overview",
+      "rel": "related"
+    },
+    {
+      "to": "engines.redis.redis-overview",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-d",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: Document store\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#document-store",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mongodb-com-mongodb-data-modeling-mongodb-manual",
+      "type": "documentation",
+      "title": "MongoDB, \"Data Modeling\", MongoDB Manual",
+      "url": "https://www.mongodb.com/docs/manual/data-modeling/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "mongodb-com-mongodb-transactions-mongodb-manual",
+      "type": "documentation",
+      "title": "MongoDB, \"Transactions\", MongoDB Manual",
+      "url": "https://www.mongodb.com/docs/manual/core/transactions/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "owasp-org-owasp-testing-for-nosql-injection-web-se",
+      "type": "website",
+      "title": "OWASP, \"Testing for NoSQL Injection\", Web Security Testing Guide",
+      "url": "https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05.6-Testing_for_NoSQL_Injection",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "nosql"
+  }
+}

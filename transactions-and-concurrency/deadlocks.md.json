@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "transactions-and-concurrency.deadlocks",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 2,
+    "tags": [
+      "transactions-and-concurrency"
+    ],
+    "aliases": [
+      "deadlock",
+      "Coffman conditions"
+    ]
+  },
+  "links": [
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "doi-org-e-g-coffman-m-elphick-a-shoshani-system-de",
+      "type": "paper",
+      "title": "E. G. Coffman, M. Elphick, A. Shoshani, \"System Deadlocks\", ACM Computing Surveys 3(2), 1971",
+      "year": 1971,
+      "url": "https://doi.org/10.1145/356586.356588",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Explicit Locking: Deadlocks\", PostgreSQL 17 documentation, section 13.3.4",
+      "url": "https://www.postgresql.org/docs/17/explicit-locking.html#LOCKING-DEADLOCKS",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dev-mysql-com-oracle-deadlocks-in-innodb-mysql-8-4",
+      "type": "documentation",
+      "title": "Oracle, \"Deadlocks in InnoDB\", MySQL 8.4 Reference Manual",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/innodb-deadlocks.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "bytebytego-com-bytebytego-what-is-a-deadlock-infog",
+      "type": "website",
+      "title": "ByteByteGo, \"What is a Deadlock?\" (infographic)",
+      "url": "https://bytebytego.com/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Coffman conditions",
+      "anchor": "#coffman-conditions",
+      "definition": "Mutual exclusion, hold and wait, no preemption and circular wait, which must all hold for a deadlock."
+    }
+  ],
+  "map": {
+    "group": "transactions-and-concurrency"
+  }
+}

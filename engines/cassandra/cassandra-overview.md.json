@@ -1,0 +1,57 @@
+{
+  "node": {
+    "id": "engines.cassandra.cassandra-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "engines",
+      "cassandra"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.wide-column-stores",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.consistent-hashing",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "doi-org-avinash-lakshman-prashant-malik-cassandra",
+      "type": "paper",
+      "title": "Avinash Lakshman, Prashant Malik, \"Cassandra: A Decentralized Structured Storage System\", ACM SIGOPS Operating Systems Review 44(2), 2010",
+      "year": 2010,
+      "url": "https://doi.org/10.1145/1773912.1773922",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "cassandra-apache-org-apache-software-foundation-ap",
+      "type": "documentation",
+      "title": "Apache Software Foundation, \"Apache Cassandra documentation\"",
+      "url": "https://cassandra.apache.org/doc/latest/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "cassandra-apache-org-apache-software-foundation-dy",
+      "type": "documentation",
+      "title": "Apache Software Foundation, \"Dynamo\" (architecture section)",
+      "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "cassandra"
+  }
+}

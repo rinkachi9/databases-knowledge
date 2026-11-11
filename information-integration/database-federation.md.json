@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "information-integration.database-federation",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "information-integration"
+    ],
+    "aliases": [
+      "federated database",
+      "foreign data wrapper",
+      "data virtualization"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "query-languages.sql.sql-joins",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "doi-org-amit-p-sheth-james-a-larson-federated-data",
+      "type": "paper",
+      "title": "Amit P. Sheth, James A. Larson, \"Federated Database Systems for Managing Distributed, Heterogeneous, and Autonomous Databases\", ACM Computing Surveys 22(3), 1990",
+      "year": 1990,
+      "url": "https://doi.org/10.1145/96602.96604",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"postgres_fdw\", PostgreSQL 17 documentation",
+      "url": "https://www.postgresql.org/docs/17/postgres-fdw.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "learn-microsoft-com-microsoft-data-virtualization",
+      "type": "documentation",
+      "title": "Microsoft, \"Data virtualization with PolyBase in SQL Server\"",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/polybase/polybase-guide",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "docs-aws-amazon-com-amazon-web-services-querying-e",
+      "type": "documentation",
+      "title": "Amazon Web Services, \"Querying external data using Amazon Redshift Spectrum\"",
+      "url": "https://docs.aws.amazon.com/redshift/latest/dg/c-using-spectrum.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-f",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: Federation\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#federation",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "information-integration"
+  }
+}

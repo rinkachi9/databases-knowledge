@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "engines.redis.redis-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "engines",
+      "redis"
+    ],
+    "aliases": [
+      "Valkey"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.key-value-stores",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "redis-io-redis-ltd-redis-documentation",
+      "type": "documentation",
+      "title": "Redis Ltd., \"Redis documentation\"",
+      "url": "https://redis.io/docs/latest/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "redis-io-redis-ltd-redis-persistence",
+      "type": "documentation",
+      "title": "Redis Ltd., \"Redis persistence\"",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "redis-io-redis-ltd-licenses",
+      "type": "website",
+      "title": "Redis Ltd., \"Licenses\"",
+      "url": "https://redis.io/legal/licenses/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "valkey-io-valkey-project",
+      "type": "website",
+      "title": "Valkey project",
+      "url": "https://valkey.io/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "redis"
+  }
+}

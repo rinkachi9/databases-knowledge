@@ -1,0 +1,48 @@
+{
+  "node": {
+    "id": "engines.sqlite.sqlite-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "engines",
+      "sqlite"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "sqlite-org-sqlite-about-sqlite-and-appropriate-use",
+      "type": "website",
+      "title": "SQLite, \"About SQLite\" and \"Appropriate Uses For SQLite\"",
+      "url": "https://www.sqlite.org/whentouse.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "sqlite-org-sqlite-write-ahead-logging",
+      "type": "website",
+      "title": "SQLite, \"Write-Ahead Logging\"",
+      "url": "https://www.sqlite.org/wal.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "sqlite-org-sqlite-datatypes-in-sqlite-and-strict-t",
+      "type": "website",
+      "title": "SQLite, \"Datatypes In SQLite\" and \"STRICT Tables\"",
+      "url": "https://www.sqlite.org/datatype3.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "sqlite"
+  }
+}

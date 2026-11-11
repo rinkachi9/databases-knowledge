@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "transactions-and-concurrency.transactions-and-acid",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 1,
+    "tags": [
+      "transactions-and-concurrency"
+    ],
+    "aliases": [
+      "ACID",
+      "isolation levels"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "database-design-and-models.relational.integrity-constraints",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "doi-org-theo-haerder-andreas-reuter-principles-of",
+      "type": "paper",
+      "title": "Theo Haerder, Andreas Reuter, \"Principles of Transaction-Oriented Database Recovery\", ACM Computing Surveys 15(4), 1983",
+      "year": 1983,
+      "url": "https://doi.org/10.1145/289.291",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "jim-gray-andreas-reuter-transaction-processing-con",
+      "type": "book",
+      "title": "Jim Gray, Andreas Reuter, Transaction Processing: Concepts and Techniques, Morgan Kaufmann, 1992",
+      "year": 1992,
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "doi-org-hal-berenson-et-al-a-critique-of-ansi-sql",
+      "type": "paper",
+      "title": "Hal Berenson et al., \"A Critique of ANSI SQL Isolation Levels\", SIGMOD 1995",
+      "year": 1995,
+      "url": "https://doi.org/10.1145/223784.223785",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Transaction Isolation\", PostgreSQL 17 documentation, section 13.2",
+      "url": "https://www.postgresql.org/docs/17/transaction-iso.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-r",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: RDBMS\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#relational-database-management-system-rdbms",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "ACID",
+      "anchor": "#acid",
+      "definition": "Atomicity, consistency, isolation and durability, the guarantees of a database transaction."
+    }
+  ],
+  "map": {
+    "group": "transactions-and-concurrency"
+  }
+}

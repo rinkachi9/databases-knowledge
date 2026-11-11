@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "distributed-databases.consistent-hashing",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 3,
+    "tags": [
+      "distributed-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "distributed-databases.physical-and-virtual-nodes",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "doi-org-david-karger-et-al-consistent-hashing-and",
+      "type": "paper",
+      "title": "David Karger et al., \"Consistent Hashing and Random Trees\", STOC 1997",
+      "year": 1997,
+      "url": "https://doi.org/10.1145/258533.258660",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "allthingsdistributed-com-giuseppe-decandia-et-al-d",
+      "type": "paper",
+      "title": "Giuseppe DeCandia et al., \"Dynamo: Amazon's Highly Available Key-value Store\", SOSP 2007, section 4.2",
+      "year": 2007,
+      "url": "https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "horicky-blogspot-com-ricky-ho-nosql-patterns-2009",
+      "type": "website",
+      "title": "Ricky Ho, \"NOSQL Patterns\", 2009",
+      "year": 2009,
+      "url": "https://horicky.blogspot.com/2009/11/nosql-patterns.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "arxiv-org-john-lamping-eric-veach-a-fast-minimal-m",
+      "type": "paper",
+      "title": "John Lamping, Eric Veach, \"A Fast, Minimal Memory, Consistent Hash Algorithm\", 2014",
+      "year": 2014,
+      "url": "https://arxiv.org/abs/1406.2294",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Consistent hashing",
+      "anchor": "#the-ring",
+      "definition": "Placing keys and nodes on one hash ring so that each key belongs to the next node clockwise and few keys move when nodes change."
+    }
+  ],
+  "map": {
+    "group": "distributed-databases"
+  }
+}

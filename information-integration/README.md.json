@@ -1,0 +1,19 @@
+{
+  "node": {
+    "id": "information-integration",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "information-integration"
+    ]
+  },
+  "links": [
+    {
+      "to": "information-integration.database-federation",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "information-integration"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "query-languages.sql.sql-language-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "query-languages",
+      "sql"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "query-processing-and-optimization.sql-tuning",
+      "rel": "related"
+    },
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.stored-procedures",
+      "rel": "related"
+    },
+    {
+      "to": "query-languages.sql.triggers",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "iso-org-iso-iec-9075-2-2023-information-technology",
+      "type": "standard",
+      "title": "ISO/IEC 9075-2:2023, \"Information technology - Database languages SQL - Part 2: Foundation\"",
+      "year": 2023,
+      "url": "https://www.iso.org/standard/76584.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "doi-org-donald-d-chamberlin-raymond-f-boyce-sequel",
+      "type": "paper",
+      "title": "Donald D. Chamberlin, Raymond F. Boyce, \"SEQUEL: A Structured English Query Language\", SIGFIDET 1974",
+      "year": 1974,
+      "url": "https://doi.org/10.1145/800296.811515",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"The SQL Language\", PostgreSQL 17 documentation, part II",
+      "url": "https://www.postgresql.org/docs/17/sql.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "bytebytego-com-bytebytego-how-to-learn-sql-infogra",
+      "type": "website",
+      "title": "ByteByteGo, \"How to Learn SQL?\" (infographic)",
+      "url": "https://bytebytego.com/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "modern-sql-com-markus-winand-modern-sql",
+      "type": "website",
+      "title": "Markus Winand, \"Modern SQL\"",
+      "url": "https://modern-sql.com/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "sql"
+  }
+}

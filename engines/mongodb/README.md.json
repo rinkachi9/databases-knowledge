@@ -1,0 +1,21 @@
+{
+  "node": {
+    "id": "engines.mongodb",
+    "kind": "index",
+    "status": "draft",
+    "order": 4,
+    "tags": [
+      "engines",
+      "mongodb"
+    ]
+  },
+  "links": [
+    {
+      "to": "engines.mongodb.mongodb-overview",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "engines"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "node": {
+    "id": "query-languages",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "query-languages"
+    ]
+  },
+  "links": [
+    {
+      "to": "query-languages.sql",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "query-languages"
+  }
+}

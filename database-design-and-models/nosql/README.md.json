@@ -1,0 +1,37 @@
+{
+  "node": {
+    "id": "database-design-and-models.nosql",
+    "kind": "index",
+    "status": "draft",
+    "order": 2,
+    "tags": [
+      "database-design-and-models",
+      "nosql"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.nosql-overview",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.key-value-stores",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.document-stores",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.wide-column-stores",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.graph-databases",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "database-design-and-models"
+  }
+}

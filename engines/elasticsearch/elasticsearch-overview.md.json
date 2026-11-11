@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "engines.elasticsearch.elasticsearch-overview",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "engines",
+      "elasticsearch"
+    ],
+    "aliases": [
+      "ELK stack",
+      "OpenSearch"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.nosql.document-stores",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "foundations.choosing-a-database",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "elastic-co-elastic-elasticsearch-guide",
+      "type": "documentation",
+      "title": "Elastic, \"Elasticsearch Guide\"",
+      "url": "https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "elastic-co-clinton-gormley-zachary-tong-elasticsea",
+      "type": "book",
+      "title": "Clinton Gormley, Zachary Tong, Elasticsearch: The Definitive Guide, O'Reilly, 2015",
+      "year": 2015,
+      "url": "https://www.elastic.co/guide/en/elasticsearch/guide/current/index.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "elastic-co-elastic-elastic-license-faq-and-the-202",
+      "type": "website",
+      "title": "Elastic, \"Elastic License FAQ\" and the 2024 AGPL announcement",
+      "year": 2024,
+      "url": "https://www.elastic.co/pricing/faq/licensing",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "opensearch-org-opensearch-project",
+      "type": "website",
+      "title": "OpenSearch project",
+      "url": "https://opensearch.org/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "elasticsearch"
+  }
+}

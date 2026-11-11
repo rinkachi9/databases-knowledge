@@ -1,0 +1,19 @@
+{
+  "node": {
+    "id": "case-studies",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "case-studies"
+    ]
+  },
+  "links": [
+    {
+      "to": "case-studies.figma-database-scaling",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "case-studies"
+  }
+}

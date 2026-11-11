@@ -1,0 +1,33 @@
+{
+  "node": {
+    "id": "database-design-and-models.relational",
+    "kind": "index",
+    "status": "draft",
+    "order": 1,
+    "tags": [
+      "database-design-and-models",
+      "relational"
+    ]
+  },
+  "links": [
+    {
+      "to": "database-design-and-models.relational.relational-model",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.relational.integrity-constraints",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.relational.normalization",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.relational.denormalization",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "database-design-and-models"
+  }
+}

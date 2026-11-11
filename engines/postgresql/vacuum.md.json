@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "engines.postgresql.vacuum",
+    "kind": "note",
+    "status": "draft",
+    "level": "advanced",
+    "order": 3,
+    "tags": [
+      "engines",
+      "postgresql"
+    ]
+  },
+  "links": [
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "engines.postgresql.postgresql-overview",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "postgresql-org-postgresql-global-development-group",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Routine Vacuuming\", PostgreSQL 17 documentation, section 24.1",
+      "url": "https://www.postgresql.org/docs/17/routine-vacuuming.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "postgresql-org-postgresql-global-development-group-x",
+      "type": "documentation",
+      "title": "PostgreSQL Global Development Group, \"Automatic Vacuuming\", PostgreSQL 17 documentation",
+      "url": "https://www.postgresql.org/docs/17/runtime-config-autovacuum.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "figma-com-sammy-steele-how-figma-s-databases-team",
+      "type": "website",
+      "title": "Sammy Steele, \"How Figma's databases team lived to tell the scale\", Figma blog, 2024",
+      "year": 2024,
+      "url": "https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "interdb-jp-hironobu-suzuki-the-internals-of-postgr",
+      "type": "website",
+      "title": "Hironobu Suzuki, The Internals of PostgreSQL, chapter 6 \"Vacuum Processing\"",
+      "url": "https://www.interdb.jp/pg/pgsql06.html",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "postgresql"
+  }
+}

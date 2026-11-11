@@ -1,0 +1,63 @@
+{
+  "node": {
+    "id": "distributed-databases.replication-topologies",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 5,
+    "tags": [
+      "distributed-databases"
+    ],
+    "aliases": [
+      "master-slave replication",
+      "master-master replication",
+      "leader-follower replication",
+      "multi-leader replication"
+    ]
+  },
+  "links": [
+    {
+      "to": "distributed-databases.replication",
+      "rel": "prerequisite"
+    }
+  ],
+  "sources": [
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-m",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: Master-slave and master-master replication\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#master-slave-replication",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dataintensive-net-martin-kleppmann-designing-data",
+      "type": "book",
+      "title": "Martin Kleppmann, Designing Data-Intensive Applications, chapter 5, sections \"Leaders and Followers\", \"Multi-Leader Replication\" and \"Leaderless Replication\", O'Reilly, 2017",
+      "year": 2017,
+      "url": "https://dataintensive.net/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dev-mysql-com-oracle-group-replication-mysql-8-4-r",
+      "type": "documentation",
+      "title": "Oracle, \"Group Replication\", MySQL 8.4 Reference Manual",
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/group-replication.html",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "doi-org-marc-shapiro-et-al-conflict-free-replicate",
+      "type": "paper",
+      "title": "Marc Shapiro et al., \"Conflict-free Replicated Data Types\", SSS 2011",
+      "year": 2011,
+      "url": "https://doi.org/10.1007/978-3-642-24550-3_29",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "distributed-databases"
+  }
+}

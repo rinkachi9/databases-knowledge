@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "distributed-databases.database-scaling-strategies",
+    "kind": "note",
+    "status": "draft",
+    "level": "intermediate",
+    "order": 1,
+    "tags": [
+      "distributed-databases"
+    ]
+  },
+  "links": [
+    {
+      "to": "foundations.sql-vs-nosql",
+      "rel": "prerequisite"
+    },
+    {
+      "to": "query-processing-and-optimization.sql-tuning",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.relational.denormalization",
+      "rel": "related"
+    },
+    {
+      "to": "database-design-and-models.nosql.key-value-stores",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.replication",
+      "rel": "related"
+    },
+    {
+      "to": "distributed-databases.sharding",
+      "rel": "related"
+    }
+  ],
+  "sources": [
+    {
+      "key": "bytebytego-com-bytebytego-database-scaling-cheatsh",
+      "type": "website",
+      "title": "ByteByteGo, \"Database Scaling Cheatsheet\" (infographic)",
+      "url": "https://bytebytego.com/",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "github-com-donne-martin-the-system-design-primer-d",
+      "type": "website",
+      "title": "Donne Martin, \"The System Design Primer: Database\" and \"Cache\" (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer#database",
+      "verified": false,
+      "checked": "2026-11"
+    },
+    {
+      "key": "dataintensive-net-martin-kleppmann-designing-data",
+      "type": "book",
+      "title": "Martin Kleppmann, Designing Data-Intensive Applications, chapter 1 \"Scalability\", O'Reilly, 2017",
+      "year": 2017,
+      "url": "https://dataintensive.net/",
+      "verified": false,
+      "checked": "2026-11"
+    }
+  ],
+  "map": {
+    "group": "distributed-databases"
+  }
+}

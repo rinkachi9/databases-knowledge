@@ -1,0 +1,23 @@
+{
+  "node": {
+    "id": "transactions-and-concurrency",
+    "kind": "index",
+    "status": "draft",
+    "tags": [
+      "transactions-and-concurrency"
+    ]
+  },
+  "links": [
+    {
+      "to": "transactions-and-concurrency.transactions-and-acid",
+      "rel": "related"
+    },
+    {
+      "to": "transactions-and-concurrency.deadlocks",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "transactions-and-concurrency"
+  }
+}

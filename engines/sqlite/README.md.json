@@ -1,0 +1,21 @@
+{
+  "node": {
+    "id": "engines.sqlite",
+    "kind": "index",
+    "status": "draft",
+    "order": 3,
+    "tags": [
+      "engines",
+      "sqlite"
+    ]
+  },
+  "links": [
+    {
+      "to": "engines.sqlite.sqlite-overview",
+      "rel": "related"
+    }
+  ],
+  "map": {
+    "group": "engines"
+  }
+}
